@@ -1,0 +1,44 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django-environ = "==0.4.5"
+django-crispy-forms = "==1.7.2"
+django-model-utils = "==3.2.0"
+argon2-cffi = "==19.2.0"
+psycopg2-binary = "==2.8.4"
+awesome-slugify = "==1.6.5"
+pytz = "==2019.3"
+versioneer = "==0.18"
+django-docs = "==0.3.1"
+sphinx-rtd-theme = "==0.4.3"
+rules = "==2.2"
+djangorestframework = "==3.11.0"
+drf-keyed-list = "==0.0.2"
+django-rest-knox = "==4.1.0"
+django-markupfield = "==1.5.1"
+django-pagedown = "==1.0.6"
+mistune = "==0.8.4"
+django-autocomplete-light = "==3.2.10"
+django-plugins = {editable = true,git = "https://github.com/mikkonie/django-plugins.git",ref = "1bc07181e6ab68b0f9ed3a00382eb1f6519e1009"}
+django-sodar-core = {editable = true,git = "https://github.com/bihealth/sodar_core.git",ref = "v0.8.0"}
+django-extensions = "==2.2.8"
+django-debug-toolbar = "==2.2"
+ipdb = "==0.13.2"
+Django = "==1.11.29,<2.0"
+Pillow = "==7.0.0"
+Sphinx = "==2.4.4"
+Markdown = "==3.2.1"
+Werkzeug = "==1.0.0"
+whitenoise = "==5.0.1"
+django-redis = "==4.11.0"
+redis = ">=2.10.5"
+gevent = "==1.4.0"
+gunicorn = "==20.0.4"
+
+[requires]
+python_version = "3.6"
